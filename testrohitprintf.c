@@ -6,13 +6,13 @@ int	main()
 
   rohit_printf("Hello this message is printed by rohit printf function\n");
   
-	count = rohit_printf("Example of String %s\n", "Rohit");
+	count = rohit_printf("Example of printing a String %s\n", "Rohit");
 	printf("%d character\n", count);
-	count = rohit_printf("Example of Char %c\n", 'S');
+	count = rohit_printf("Example of printing a Char %c\n", 'S');
 	printf("%d character\n", count);
-	count =rohit_printf("Example of Nbr %d\n", -42);
+	count =rohit_printf("Example of printing Nbr %d\n", -42);
 	printf("%d character\n", count);
-	count = rohit_printf("Example of Hexadecimal %x\n", -1);
+	count = rohit_printf("Example of printing Hexadecimal %x\n", -1);
 	printf("%d character\n", count);
 
 	//REAL 

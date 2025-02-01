@@ -16,7 +16,7 @@ int	main()
 	printf("%d character\n", count);
 
 	//REAL 
-  printf("Hello this message is printed by rohit printf function\n");
+        printf("Hello this message is printed by printf function\n");
   
 	count = printf("Example of String %s\n", "Rohit");
 	printf("%d character\n", count);

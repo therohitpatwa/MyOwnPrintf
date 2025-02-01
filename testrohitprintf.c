@@ -2,7 +2,7 @@
 int	main()
 {
 	int	count;
-
+ 
 
   rohit_printf("Hello this message is printed by rohit printf function\n");
   

@@ -9,6 +9,22 @@ int print_char(int c)
 }
 
 
+int print_str(char *str)
+{
+	int count;
+	count;
+
+	count=0;
+	while(*str!='\0')
+	{
+		print_char((int)*str);
+		++count;
+		++str;
+	}
+	return count;
+}
+
+
 int print_format(char specifier, va_list ap)
 {
 	int count=0;

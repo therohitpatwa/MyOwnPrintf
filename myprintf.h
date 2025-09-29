@@ -9,7 +9,7 @@ int	print_char(int c)
 }
 
 
-int print_str(char *str)
+int print_str(char *s)
 {
     int count=0;
     while(*s)    

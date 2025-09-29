@@ -5,7 +5,7 @@
 
 int	print_char(int c) 
 {
-	return write(1, &c, 1);
+	return write(1, &c, 1); 
 }
 
 
@@ -22,7 +22,7 @@ int print_format(char specifier,va_list ap)
     else if(specifier=='x')
        count=print_digit((long)va_arg(ap,unsigned int), 16);
     else
-        count += write(1, &specifier, 1);
+        count += write(1, &specifier, 1);     
 
         return count;
 }

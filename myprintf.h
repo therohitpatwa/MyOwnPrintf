@@ -9,6 +9,17 @@ int	print_char(int c)
 }
 
 
+int print_str(char *str)
+{
+    int count=0;
+    while(*s)
+    {
+        count+=write(1,s++,1);;
+    }
+    return count;
+}
+
+
 
 int print_format(char specifier,va_list ap)
 {

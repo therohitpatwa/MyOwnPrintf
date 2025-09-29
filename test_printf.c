@@ -2,5 +2,5 @@
 
 void main()
 {
-    rohit_printf("%s","Rohit");
+    rohit_printf("%d",-21);
 }

@@ -1,7 +1,7 @@
 # My own printf -- rohit_printf()
 
 ## 🎯 Overview --
-I implemented my own printf function named - rohit_printf()**
+I implemented my own printf function named - rohit_printf()
 It  will mimic real printf() of C.
 
 ```C

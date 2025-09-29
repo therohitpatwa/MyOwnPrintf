@@ -1,6 +1,15 @@
 #include<stdarg.h>
 
 
+
+
+int	print_char(int c) 
+{
+	return write(1, &c, 1);
+}
+
+
+
 int print_format(char specifier,va_list ap)
 {
     int count=0;

@@ -12,7 +12,7 @@ int	print_char(int c)
 int print_str(char *str)
 {
     int count=0;
-    while(*s)
+    while(*s)    
     {
         count+=write(1,s++,1);;
     }
@@ -25,7 +25,7 @@ int print_format(char specifier,va_list ap)
 {
     int count=0;
     if(specifier=='c')
-      count=print_char(va_arg(ap, int));
+      count=print_char(va_arg(ap, int));       
     else if(specifier=='s')
       count=print_str(va_arg(ap, char *));
     else if(specifier=='d')

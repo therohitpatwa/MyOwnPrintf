@@ -73,7 +73,9 @@ int rohit_printf(const char * format,...)
         count += print_format(*++format,ap);
         else
         count+= write(STDOUT_FILENO,format,1);
+       ++format;
     }
+ 
     va_end(ap);
     return count;
 }

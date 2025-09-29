@@ -25,5 +25,9 @@ and use rohit_printf() function same like c.
 - Pointer
 - Recursion
 
-
+## 🖼️ Snaps
+(<img width="717" height="325" alt="Screenshot 2025-09-29 215606" src="https://github.com/user-attachments/assets/6a41093b-0326-4d55-bdc4-29420e43b641" />
+)
+(<img width="370" height="110" alt="Screenshot 2025-09-29 215615" src="https://github.com/user-attachments/assets/bf7d34c3-5b53-4c0e-851d-ea1fdabcd004" />
+)
 

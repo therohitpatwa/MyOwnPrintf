@@ -16,7 +16,7 @@ int rohit_printf(const char *, ...)
 
 ## 🧑‍💻 How to Use --
 import myprintf.h in your c file -- #include "myprintf.h"
-and use rohit_printf() function same like c.
+and use rohit_printf() function same like you do in C.
 
 
 ## 📓 Concept use --
